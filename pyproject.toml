@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ffxfood"
+version = "0.1.0"
+description = "Structured restaurant grades from Fairfax County retail food inspection reports"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+# Fallback PDF text extraction when poppler's `pdftotext` is not installed.
+pdfplumber = ["pdfplumber>=0.10"]
+
+[project.scripts]
+ffx = "ffxfood.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ffxfood = ["schema.sql"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How Grades Work · Fairfax Food Grades</title>
+  <meta name="description" content="How Fairfax Food Grades turns county inspection reports into letter grades, and what the grades don't mean.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#1e7b45">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1><a href="./">Fairfax Food Grades</a></h1>
+    <span class="tagline">Not affiliated with or endorsed by Fairfax County</span>
+    <nav>
+      <a href="./">Map</a>
+      <a href="method.html" aria-current="page">How grades work</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <p class="note" id="updated"></p>
+
+    <h2>What the grades are</h2>
+    <p>Fairfax County inspects every permitted food establishment and publishes each inspection report, but its
+      own viewer shows only a pass/fail result. This site reads the reports themselves: which of the 56 items on
+      the county's form were out of compliance, how serious each violation was, whether it was a repeat, and
+      whether it was corrected on the spot. It turns that into a score and a letter grade.</p>
+    <p><b>A grade describes how a place does on routine inspections.</b> It is not a measure of how likely you are
+      to get sick, and the county does not endorse it. Research has found that overall inspection scores are only
+      loosely linked to outbreaks, so use a grade as one input, alongside the reports themselves.</p>
+
+    <h2>What each letter means</h2>
+    <p>Each inspection starts at 100 and loses points for every item found out of compliance. Letters are defined
+      in terms of one <b>serious violation</b>: a Priority-level problem with a foodborne-illness risk factor, such
+      as improper cold holding or an employee not washing hands. That costs <span id="unit"></span> points.</p>
+    <div class="table-wrap"><table id="letters"><thead><tr><th>Grade</th><th class="num">Score</th><th>Meaning</th><th class="num">Locations</th></tr></thead><tbody></tbody></table></div>
+
+    <h2>How points are counted</h2>
+    <ul>
+      <li>Each item on the county's form that is <b>out of compliance</b> loses points once, however many citations it has.
+        Items in compliance, not observed, or not applicable lose nothing.</li>
+      <li><b>Risk factors</b> (items 1–29: hygiene, temperatures, cross-contamination and similar) cost more than
+        <b>good retail practices</b> (items 30–56: cleaning, equipment, facilities).</li>
+      <li>The county rates each violation <b>Priority</b>, <b>Priority foundation</b> or <b>Core</b>. More serious tiers cost more.</li>
+      <li>A <b>repeat</b> violation (also found at the previous inspection) costs <span id="repeat"></span> times as much.</li>
+      <li>Violations <b>corrected during the inspection</b> are not discounted: the problem existed until the inspector found it.</li>
+    </ul>
+    <div class="table-wrap"><table id="points"><thead><tr><th>Item type</th><th class="num">Priority</th><th class="num">Priority foundation</th><th class="num">Core</th></tr></thead><tbody></tbody></table></div>
+
+    <h3>From inspections to a grade</h3>
+    <ul>
+      <li>A location's score is the average of its routine inspections, with recent ones counting most
+        (an inspection a year old counts half as much as one today).</li>
+      <li>That average is blended with one typical inspection for the same kind of business, so a single
+        inspection can't make or break a grade.</li>
+      <li>Places with too little recent inspection history show <b>not graded</b>.</li>
+      <li>Reports the site couldn't read reliably (under 1%) are left out and flagged on the location's page.</li>
+    </ul>
+
+    <h3>How this method was chosen</h3>
+    <p>Several weighting schemes were tested against what happened at each location's next inspection. They
+      predicted about equally well, so the scheme here was chosen because it is simple to explain and separates
+      locations clearly. Complaints were also tested and turned out to be only weakly related to inspection
+      results.</p>
+
+    <h2>Complaints</h2>
+    <p>Each location page lists health complaints filed with the county and matched to that address. Complaints
+      are allegations: the county doesn't publish what a complaint was about or whether it was confirmed. They
+      are shown for context and <b>do not affect the grade</b>. Some complaints concern businesses without a
+      permit and can't be matched to any location.</p>
+
+    <h2>Sources and limits</h2>
+    <ul>
+      <li>Inspections and permits: Fairfax County Health Department, via the county's public
+        <a href="https://experience.arcgis.com/experience/0e687ef56da44ef287d20ced8cc85a3f/page/Main-Page">Retail Food Inspection Viewer</a>
+        data and the inspection reports linked from it. Every inspection on this site links to the county's report.</li>
+      <li>Complaints: the county's <a href="https://plus.fairfaxcounty.gov/CitizenAccess/">PLUS portal</a> (public records only).</li>
+      <li>The county keeps reports online for about two years, so grades cover roughly that window: <span id="window"></span>.</li>
+      <li>Data is provided subject to the county's <a href="https://www.fairfaxcounty.gov/maps/disclaimer">GIS disclaimer</a>.
+        This site is independent and is not affiliated with Fairfax County; see <a href="about.html">About &amp; Disclaimer</a>.</li>
+      <li>Not stored or shown: names of the person in charge, permit holders, or inspectors, and manager certification numbers.</li>
+    </ul>
+  </main>
+
+  <footer class="foot">
+    <div><b>Fairfax Food Grades</b><br>Making Fairfax County's public food inspection records easier to understand.</div>
+    <div><a href="about.html">About &amp; Disclaimer</a> · &copy; <span id="yr">2026</span> Fairfax Food Grades.</div>
+  </footer>
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+  <script src="method.js"></script>
+</body>
+</html>

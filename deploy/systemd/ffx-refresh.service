@@ -1,0 +1,13 @@
+[Unit]
+Description=ffxfood weekly refresh (inspections, reports, complaints, scores)
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Documents/Code_Projects/fairfax-food-grades
+ExecStart=%h/Documents/Code_Projects/fairfax-food-grades/scripts/refresh.sh
+StandardOutput=append:%h/Documents/Code_Projects/fairfax-food-grades/data/refresh.log
+StandardError=append:%h/Documents/Code_Projects/fairfax-food-grades/data/refresh.log
+Nice=10
+# Push the weekly build to the GitHub `site` branch, which Netlify deploys (see scripts/refresh.sh).
+Environment=FFX_DEPLOY=1

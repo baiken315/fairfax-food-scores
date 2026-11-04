@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fairfax Food Grades</title>
+  <meta name="description" content="Letter grades for Fairfax County food establishments, built from the county's public inspection reports.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#1e7b45">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1><a href="./">Fairfax Food Grades</a></h1>
+    <span class="tagline">Not affiliated with or endorsed by Fairfax County</span>
+    <nav>
+      <a href="./" aria-current="page">Map</a>
+      <a href="method.html">How grades work</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="app">
+    <aside class="side">
+      <div id="browse" class="side" style="border:0">
+        <div class="filters">
+          <div class="search-row">
+            <input id="q" type="search" placeholder="Search by name, street or city" aria-label="Search" autocomplete="off">
+            <button class="btn near-btn" id="near" type="button" title="Sort by distance from your location">Near me</button>
+          </div>
+          <div class="chips" id="active" hidden></div>
+          <div class="chips" id="letters" role="group" aria-label="Filter by grade"></div>
+          <select id="category" aria-label="Filter by category"><option value="">All categories</option></select>
+          <div class="count" id="count" aria-live="polite"></div>
+        </div>
+        <div class="list" id="list"></div>
+        <div class="side-foot">Independent project, not affiliated with Fairfax County. <a href="about.html">About &amp; Disclaimer</a></div>
+      </div>
+      <div id="detail" class="detail" hidden></div>
+    </aside>
+    <div id="map" role="region" aria-label="Map of food establishments"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

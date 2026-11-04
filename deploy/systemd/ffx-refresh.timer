@@ -1,0 +1,10 @@
+[Unit]
+Description=Run ffxfood refresh weekly
+
+[Timer]
+OnCalendar=Sun *-*-* 03:30:00
+Persistent=true
+RandomizedDelaySec=20min
+
+[Install]
+WantedBy=timers.target

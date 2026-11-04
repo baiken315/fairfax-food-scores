@@ -1,0 +1,11 @@
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+dist/
+.netlify/
+worksheet_*.html

@@ -1,0 +1,183 @@
+                                                                        Food Establishment Inspection Report
+                  Fairfax County Health Department                                 Risk Factors/Interventions Out of Compliance: 3                                                                Date: 10/09/2026
+                  10777 Main Street, Suite 100                                     Repeat Risk Factors/Interventions Out of Compliance: 1                                                     Time In: 15:09:00
+                  Fairfax, Virginia 22030    (703) 246-2201
+                                                                                   Good Retail Practices Out of Compliance: 0                                                                Time Out: 16:28:00
+
+Establishment:                               Address:                                                                   Person In Charge:                      REDACTED NAME -
+Genesis Delight Catering                     8390 Terminal Rd, Ste# 1, Lorton, Va 22079                                 Y                                      CFM:00000000
+Record Number:HFOOD-2023-00024               Inspection Number: 4238832                                                                                        Expiration Date: 10/22/2029
+Permit Holder:                               EHS:                                  Purpose of Inspection:               Establishment Type:                    Priority Level:
+Genesis Delight Cater Llc                    REDACTED EHS                          Routine                              Caterer                                2
+
+Smoking Status:                              Title 15.2-2825 Virginia Indoor Clean Air Act.                                                                    Active Managerial Control:
+No                                                               IN                                     Compliance with legislation                            No
+
+
+
+IN = In Compliance       OUT = Not In Compliance                 N/O = Not Observed       N/A = Not Applicable            CDI = Corrected During Inspection
+
+                                       FOODBORNE ILLNESS RISK FACTORS AND PUBLIC HEALTH INTERVENTIONS
+                                           Supervision                                                                                       Protection From Contamination
+
+ 1      IN    Person in charge present, demonstrates knowledge, and performs duties                      15       OUT      Food separated and protected
+ 2      IN    Certified Food Protection Manager                                                          16        IN      Food-contact surfaces; cleaned and sanitized
+
+                                        Employee Health                                                  17        IN      Proper disposition of returned, previously served, reconditioned and unsafe food
+
+ 3      IN    Management, food employee and conditional employee; knowledge, responsibilities                                        Time And Temperature Control For Safety
+              and reporting
+                                                                                                         18       NO       Proper cooking time and temperatures
+ 4      IN    Proper use of restriction and exclusion
+                                                                                                         19       NO       Proper reheating procedures for hot holding
+ 5      IN    Procedures for responding to vomiting and diarrheal events
+                                                                                                         20        IN      Proper cooling time and temperature
+                                     Good Hygienic Practices
+                                                                                                         21       NO       Proper hot holding temperatures
+ 6      IN    Proper eating, tasting, drinking, or tobacco use
+                                                                                                         22        IN      Proper cold holding temperatures
+ 7      IN    No discharge from eyes, nose, and mouth
+                                                                                                         23        IN      Proper date marking and disposition
+                              Preventing Contamination By Hands                                          24       NA       Time as a Public Health Control; procedures and records
+ 8     OUT Hands clean and properly washed                                                                                                        Consumer Advisory
+ 9      IN    No bare hand contact with RTE food or a pre-approved alternative procedure properly
+                                                                                                         25       NA       Consumer advisory provided for raw and undercooked food
+              allowed
+ 10     IN    Adequate handwashing sinks properly supplied and accessible                                                                    Highly Susceptible Populations
+
+                                        Approved Source                                                  26       NA       Pasteurized foods used; prohibited foods not offered
+
+ 11     IN    Food obtained from approved source                                                                                 Food And Color Additives And Toxic Substances
+
+ 12     NO    Food received at proper temperature                                                        27       NA       Food additives; approved and properly used
+ 13     IN    Food in good condition, safe, and unadulterated                                            28       OUT      Toxic substances properly identified, stored, and used
+ 14     NA    Required records available: shellstock tags, parasite destruction                                                      Conformance With Approved Procedures
+
+                                                                                                         29       NA       Compliance with variance, specialized process, HACCP
+
+
+                                                                                  GOOD RETAIL PRACTICES
+                                      Safe Food And Water                                                                                        Proper Use Of Utensils
+
+30     NA    Pasteurized eggs used where required                                                         43        IN      In-use utensils; properly stored
+
+31      IN   Water and ice from approved source                                                           44        IN      Utensils, equipment and linens, properly stored, dried and handled
+
+32     NA    Variance obtained for specialized processing methods                                         45        IN      Single-use/single-service articles, properly stored and used
+                                    Food Temperature Control                                              46        IN      Gloves used properly
+
+33      IN   Proper cooling methods used; adequate equipment for temperature control                                                        Utensils, Equipment And Vending
+
+34     NO    Plant food properly cooked for hot holding                                                             IN      Food and non-food contact surfaces cleanable, properly designed, constructed,
+                                                                                                          47
+                                                                                                                            and used
+35      IN   Approved thawing methods used
+                                                                                                          48        IN      Warewashing facilities; installed, maintained and used; test strips
+36      IN   Thermometers provided and accurate
+                                                                                                          49        IN      Non-food contact surfaces clean
+                                       Food Identification
+                                                                                                                                                   Physical Facilities
+37      IN   Food properly labeled, original container
+                                                                                                          50        IN      Hot and cold water available, adequate pressure
+                              Prevention Of Food Contamination
+                                                                                                          51        IN      Plumbing installed, proper backflow devices
+38      IN   Insects, rodents, and animals not present
+                                                                                                          52        IN      Sewage and Waste water properly disposed
+39      IN   Contamination prevented during food preparation, storage, and display
+                                                                                                          53        IN      Toilet Facilities; properly constructed, supplied, and cleaned
+40      IN   Personal Cleanliness
+                                                                                                          54        IN      Garbage and refuse properly disposed, facilities maintained
+41      IN   Wiping cloths, properly used and stored
+                                                                                                          55        IN      Physical facilities installed, maintained, and clean
+42      IN   Washing fruits and vegetables
+                                                                                                          56        IN      Adequate ventilation and lighting, designated areas used
+
+
+
+  Genesis Delight Catering (Inspection Date: 10/09/2026)                                                                                                                                       Page 1 of 3
+                                                                            TEMPERATURE OBSERVATIONS
+Equipment Temperatures
+Description                                                                                  Temperature
+#1 WIC                                                                                       40
+
+Hand sink, 3 compartment sink                                                                100;110
+
+#2 2dr UR Avantco                                                                            39
+
+Food Temperatures
+Food Item                                                           Temperature ºF                                           Process Step
+#1 melon 39, tomato 39 milk 39 #2 cheese 41, shredded cheese 40                                                              Cold Holding
+#1 asparagus 41f 5hrs , cheddar cheese 41f 2hrs, pepper jack 41f                                                             Cooling
+2hrs
+Warewashing Info
+                   Make                                          Model Number                             Hot Water Usage                                   Sanitization
+                    ADS                                                 AFC                                                                                   Chemical
+
+
+
+
+                                                              OBSERVATIONS AND CORRECTIVE ACTIONS
+
+The following are Priority violations:
+
+ 15
+ 3-302.11(A)(2) - Separation of Raw Animal Foods Different Types
+  CDI
+ Observation: Different types of raw animal foods stored in such a manner that may cause cross contamination as follows: observed raw chicken skewers stored above beef
+skewers.
+ Corrective Action: Raw animal foods shall be sorted by their 'type' and cooking temperatures while in storage inside a refrigerator or freezer. For example, if using ONE
+shelving unit for storage of ONLY raw foods, the foods shall be sorted in this manner: 1) raw poultry (chicken, turkey, or duck) shall be stored on the BOTTOM shelf (165F
+cook temperature), 2) raw ground beef and ground pork shall be stored on the shelf above poultry (155F cook temperature), and 3) raw pork (chops, ribs), seafood, and shell
+eggs shall be stored on the top shelf above beef (145F cook temperature). CDI chicken stored below beef
+ 8
+ 2-301.14(A)-(I) - When to Wash
+  CDI
+ Observation: A food employee failed to wash his or her hands before engaging in food preparation, after touching bare human body parts, after coughing, sneezing, eating,
+after handling soiled utensils, or after engaging in any activity that could contaminate the hands. Observed employees not wash hands after eating and coming back to prep
+food/clean tables.
+ Corrective Action: ALL food employees shall wash their hands OFTEN especially after handling trash, using the restroom, handling raw meats, handling soiled equipment and
+utensils, BEFORE putting on clean gloves, etc. Proper handwashing frequencies will aid in the reduction of foodborne illness. CDI hands washed
+ 28
+ 7-201.11 - Separation of Poison/Toxic Materials
+ REPEAT CDI
+Observation: Observed that poisonous and toxic materials are not properly stored to prevent the contamination of food, equipment, utensils, linens or single service items.
+Observed sanitizer bucket stored next to potatoes on prep shelf. Observed employee use bucket to clean table with potatoes subject to splash contamination.
+Corrective Action: All poisonous and toxic materials shall be stored to prevent contamination of food, equipment, utensils, linens, and single service items by separating the
+poisonous and toxic materials by spacing or partitioning. CDI potatoes separated.
+ 28
+ 7-201.11(B) - Storage of Poison/Toxic Materials
+ REPEAT CDI
+Observation: Observed that poisonous and toxic materials are not properly stored to prevent the contamination of food, equipment, utensils, linens or single service items.
+Observed chemical spray bottles stored hanging next to cooking equipment and utensils on storage shelf.
+Corrective Action: All poisonous and toxic materials shall be stored below food, equipment, utensils, linens, and single service items to prevent contamination. CDI spray
+bottles removed
+
+                                                                                         COMMENTS
+Conducted routine inspection.
+Do not store chemical spray bottles on shelf with food equipment.
+Do not store sanitizer bucket on shelf with food (potatoes on bottom prep table shelf)
+Have all employees wash hands after eating lunch/changing tasks.
+Store raw chicken below beef
+
+
+
+                                                                                         SCHEDULING
+Follow-up Inspection Required: No                                                                  Follow-up On or About:
+This Inspection Report sets forth Fairfax County Health Department’s observations, alleged violations, and recommendations for compliance, but it is not a case decision as defined in
+Code of Virginia §2.2-4001. If you have additional facts you believe bear on this inspection and would like to schedule an informal fact-finding conference (IFFC) pursuant to Code of
+Virginia §2.2-4019, please contact the Environmental Health Specialist (EHS) referenced on the inspection report within fifteen days of receipt of this document. Should an IFFC be
+scheduled and you fail to appear absent good cause, the Fairfax County Health Department may issue an adverse case decision as contemplated by Code of Virginia §2.2-4020.2. This
+form contains information that could be subject to disclosure under Code of Virginia §2.2-3700.
+
+
+
+
+   Genesis Delight Catering (Inspection Date: 10/09/2026)                                                                                                                     Page 2 of 3
+       Person in Charge                                  REDACTED EHS
+                                                         Environmental Health Specialist
+
+
+
+
+Genesis Delight Catering (Inspection Date: 10/09/2026)                                     Page 3 of 3
+
