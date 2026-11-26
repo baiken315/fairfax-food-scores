@@ -103,10 +103,13 @@ location and used for calibration only, since their category and outcome are not
 
 ```bash
 ffx publish --out dist && python -m http.server 8765 --directory dist     # preview at http://localhost:8765
-scripts/push_site.sh                                                        # deploy: replaces the `site` branch
+set -a; . .env; set +a; scripts/deploy_netlify.py                            # publish: Netlify API, zero build minutes
+scripts/push_site.sh                                                        # archive: replaces the `builds` branch
 ```
-Netlify is connected to the GitHub repo's **`site` branch** (publish directory `.`, no build command; see
-`web/netlify.toml`). `main` holds the code only. The weekly refresh pushes a new build when `FFX_DEPLOY=1`.
+Publishing goes through the Netlify API (`scripts/deploy_netlify.py`; token + site id in gitignored `.env`), so it never
+depends on build minutes. The GitHub repo stays connected, but its production branch **`site`** is frozen — pushes there
+would start credit-dependent git builds — and weekly snapshots land on the archive branch **`builds`** instead, which
+Netlify ignores. `main` holds the code only. The weekly refresh publishes when `FFX_DEPLOY=1`.
 Map tiles come from openstreetmap.org (fine for modest traffic under its usage policy); switch to a keyed
 provider if traffic grows. A database (e.g. Supabase) is only needed if the site gains write features.
 

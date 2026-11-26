@@ -22,7 +22,8 @@ $FFX complaints match
 $FFX score
 $FFX compact
 $FFX publish --out dist
-# Netlify deploys the `site` branch on push. Opt in with FFX_DEPLOY=1 (set in the systemd unit).
+# Publish to Netlify via scripts/deploy_netlify.py (API upload: no build, no build minutes).
+# Opt in with FFX_DEPLOY=1 (set in the systemd unit).
 # The build is compared with the last deployed one first; a sharp drop blocks the deploy (the site keeps
 # serving last week's data) and the job exits non-zero so the failure shows in `systemctl --user status`.
 if [[ "${FFX_DEPLOY:-0}" == "1" ]]; then

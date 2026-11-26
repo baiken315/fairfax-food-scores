@@ -9,5 +9,5 @@ ExecStart=%h/Documents/Code_Projects/fairfax-food-grades/scripts/refresh.sh
 StandardOutput=append:%h/Documents/Code_Projects/fairfax-food-grades/data/refresh.log
 StandardError=append:%h/Documents/Code_Projects/fairfax-food-grades/data/refresh.log
 Nice=10
-# Push the weekly build to the GitHub `site` branch, which Netlify deploys (see scripts/refresh.sh).
+# Publish the weekly build to Netlify via API and archive it on the GitHub `builds` branch (see scripts/refresh.sh).
 Environment=FFX_DEPLOY=1
