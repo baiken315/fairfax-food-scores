@@ -1,0 +1,5 @@
+# This file ships inside the built site (the `site` branch). Netlify deploys that branch as-is:
+# the data is generated locally from the SQLite database by `ffx publish`, so nothing builds here.
+[build]
+  publish = "."
+  command = ""
