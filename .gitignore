@@ -9,3 +9,5 @@ __pycache__/
 dist/
 .netlify/
 worksheet_*.html
+
+.env

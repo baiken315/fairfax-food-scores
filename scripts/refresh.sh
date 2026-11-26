@@ -3,6 +3,7 @@
 # Run from the project root (the systemd unit sets WorkingDirectory). Single-instance via flock.
 set -euo pipefail
 cd "$(dirname "$0")/.."
+[[ -f .env ]] && { set -a; . ./.env; set +a; }
 FFX=".venv/bin/ffx"
 mkdir -p data
 exec 9>data/.refresh.lock
@@ -27,6 +28,7 @@ $FFX publish --out dist
 if [[ "${FFX_DEPLOY:-0}" == "1" ]]; then
     if .venv/bin/python scripts/check_build.py dist/data/meta.json data/last_deployed_meta.json; then
         scripts/push_site.sh
+        .venv/bin/python scripts/deploy_netlify.py
         cp dist/data/meta.json data/last_deployed_meta.json
     else
         echo "== $(date -Is) build failed sanity check; NOT deployed"
